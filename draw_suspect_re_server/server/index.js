@@ -345,7 +345,7 @@ io.on("connection", async (socket) => {
   });
 });
 
-server.listen(port, () => {
+server.listen(port, "drawsuspect.adzerty.fr", () => {
   console.log(`server running at http://localhost:${port}`);
 });
 
